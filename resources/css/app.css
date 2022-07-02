@@ -1,0 +1,25 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.container {
+    @apply max-w-7xl mx-auto px-6 sm:px-4 md:px-8;
+}
+.form-input{
+    @apply block mt-1 w-full border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 rounded-md shadow-sm;
+}
+.btn{
+    @apply ml-4 text-white  p-3 rounded shadow text-base font-bold cursor-pointer;
+}
+.btn-primary{
+    @apply bg-indigo-600 hover:bg-indigo-700;
+}
+.btn-success{
+    @apply bg-green-600 hover:bg-green-700;
+}
+.btn-danger{
+    @apply bg-red-600 hover:bg-red-700;
+}
+.btn-block{
+    @apply block text-center w-full;
+}
